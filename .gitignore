@@ -1,0 +1,18 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# CUDA build outputs
+/cuda-miner/src/debug/
+/cuda-miner/src/release/
+
+# Optional manual GPU binary install
+/bin/cuda_ed25519_vanity
+/bin/libcuda-crypt.so
+/.gpu-binary-path
+
+# OS
+.DS_Store
+
+# Backups
+*.cu.bak

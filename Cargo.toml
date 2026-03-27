@@ -1,0 +1,12 @@
+[package]
+name = "uniq-tui"
+version = "0.1.0"
+edition = "2021"
+description = "Terminal UI and CLI for a local CUDA vanity miner (cuda-miner/ built on first run)"
+license = "MIT"
+repository = "https://github.com/bavtika/uniq-tui"
+readme = "README.md"
+
+[dependencies]
+crossterm = "0.28"
+ratatui = "0.29"
